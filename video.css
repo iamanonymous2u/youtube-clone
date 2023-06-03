@@ -1,0 +1,40 @@
+.th{
+    width:100%;
+    display: inline-block;
+    position: relative;
+}
+
+.vid-prev{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-pic{
+    border-radius: 200px;
+    width: 50px;
+    margin-top: 20px;
+    
+}
+.video-info{
+    margin-left: 15px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+
+.vid-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+   
+
+}
+body{
+    margin: 0px;
+}
